@@ -12,7 +12,10 @@ double lon2 = sc.nextDouble();
 
 final double rad = 6378.1;
 
-lat1 = Math.toRadians(lat1); lon1 = Math.toRadians(lon1); lat2 = Math.toRadians(lat2); lon2 = Math.toRadians(lon2);
+lat1 = Math.toRadians(lat1); 
+lon1 = Math.toRadians(lon1); 
+lat2 = Math.toRadians(lat2); 
+lon2 = Math.toRadians(lon2);
 
 double dlat = lat2 - lat1;
 double dlon = lon2 - lon1;

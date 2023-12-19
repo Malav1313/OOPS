@@ -8,11 +8,12 @@ public class ageCalculator {
 
         LocalDate currentYear = LocalDate.now(); 
         Scanner sc = new Scanner(System.in); 
-        System.out.println("Enter the birthYear:"); int birthYear = sc.nextInt();
+        System.out.println("Enter the birthYear:"); 
+        int birthYear = sc.nextInt();
 
 
         int age = calculateYear(currentYear.getYear(), birthYear);  
-        System.out.println("Your age Is " + age);
+        System.out.println("Your age is " + age);
 
     }
         public static int calculateYear(int currentYear, int birthYear) { 

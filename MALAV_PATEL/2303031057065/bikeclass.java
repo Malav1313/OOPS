@@ -19,9 +19,9 @@ class Bike{
  
  public class bikeclass{
    public static void main(String[] args){
-     Bike b1 = new Bike("Red", 100, "Honda");
-     Bike b2 = new Bike("black", 150, "TVS");
-     Bike b3 = new Bike("Yellow", 125, "Suzuki");
+     Bike b1 = new Bike("Honda", 100, "Red");
+     Bike b2 = new Bike("TVS", 150, "Black");
+     Bike b3 = new Bike("Suzuki", 125, "Yellow");
  
      b1.display();
      b2.display();

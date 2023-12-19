@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class tempConversion {
 public static void main(String[] args) { Scanner sc = new Scanner(System.in);
 System.out.println("1. Celsius to Fahrenheit");
-System.out.println("2. Celsius to Kelvin"); System.out.println("3. Fahrenheit to Celsius"); System.out.println("4. Fahrenheit to Kelvin"); System.out.println("5. Kelvin to Celsius"); System.out.println("6. Kelvin to Fahrenheit");
+System.out.println("2. Celsius to Kelvin"); 
+System.out.println("3. Fahrenheit to Celsius"); 
+System.out.println("4. Fahrenheit to Kelvin"); 
+System.out.println("5. Kelvin to Celsius"); 
+System.out.println("6. Kelvin to Fahrenheit");
 
 System.out.println("Enter the Temperature Conversion Nu:");
 int nu = sc.nextInt();

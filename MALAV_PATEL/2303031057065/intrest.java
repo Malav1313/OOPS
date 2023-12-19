@@ -8,7 +8,9 @@ double principal = sc.nextDouble();
 
 System.out.print("Enter the annual interest rate (in percentage): ");
 double annualInterestRate = sc.nextDouble();
-double monthlyInterestRate = annualInterestRate / 100 / 12; System.out.print("Enter the number of years: ");
+double monthlyInterestRate = annualInterestRate / 100 / 12; 
+
+System.out.print("Enter the number of years: ");
 int years = sc.nextInt();
 
 double totalAmount = principal * Math.pow(1 + monthlyInterestRate, years * 12);
