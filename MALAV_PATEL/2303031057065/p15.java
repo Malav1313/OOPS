@@ -1,26 +1,20 @@
-// write a program to use super and methods
-
-class outerClass{
-    private int outerData = 10;
-
-    class innerClass{
-        void display(){
-            System.out.println("Inner Class : Accessing OuterData from Inner class :"+outerClass);
-        }
-    }
-    // method that uses the InnerClass
-    void useInnerClass(){
-        innerClass inner = new innerClass();
-        inner.display();
+class Parent {
+    void display() {
+        System.out.println("This is the parent class.");
     }
 }
-public class p15{
+
+class Child extends Parent {
+    @Override
+    void display() {
+        super.display(); // Calling the parent class method using super
+        System.out.println("This is the child class.");
+    }
+}
+
+public class p15 {
     public static void main(String[] args) {
-        outerClass outer = outerClass();
-
-        outer.useInnerClass();
-
-        outerClass.innerClass innerDirect = outer.new innerClass();
-        innerDirect.display();
+        Child child = new Child();
+        child.display();
     }
 }
